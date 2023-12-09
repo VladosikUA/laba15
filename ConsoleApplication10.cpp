@@ -1,29 +1,29 @@
-//Лабораторна 15
-// Завдання 1
+//Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР° 15
+// Р—Р°РІРґР°РЅРЅСЏ 1
 //#include <stdio.h>
 //#include <windows.h>
 //
 //int main() {
 //	SetConsoleOutputCP(1251);
 //	int a, b;
-//	printf("Введіть числa а та b\n");
+//	printf("Р’РІРµРґС–С‚СЊ С‡РёСЃР»a Р° С‚Р° b\n");
 //	scanf_s("%d %d", &a, &b);
 //	if (a > b){
-//		printf("Результат %d", a);
+//		printf("Р РµР·СѓР»СЊС‚Р°С‚ %d", a);
 //    }
 //	else {
-//		printf("Результат %d %d", a, b);
+//		printf("Р РµР·СѓР»СЊС‚Р°С‚ %d %d", a, b);
 //	}
 //	return 0;
 //}
-                                                 //// Завдання 2
+                                                 //// Р—Р°РІРґР°РЅРЅСЏ 2
 //#include <stdio.h>
 //#include <Windows.h>
 //
 //int main() {
 //    SetConsoleOutputCP(1251);
 //    int a, b, c;
-//    printf("Введіть три числа: \n");
+//    printf("Р’РІРµРґС–С‚СЊ С‚СЂРё С‡РёСЃР»Р°: \n");
 //    scanf_s("%d %d %d", &a, &b, &c);
 //    int min = a;
 //    if (b < min) {
@@ -32,10 +32,10 @@
 //    if (c < min) {
 //        min = c;
 //    }
-//    printf("Мінімальне число: %d\n", min);
+//    printf("РњС–РЅС–РјР°Р»СЊРЅРµ С‡РёСЃР»Рѕ: %d\n", min);
 //    return 0;
 //}
-                                                //// Завдання 3
+                                                //// Р—Р°РІРґР°РЅРЅСЏ 3
 //#include <stdio.h>
 //#include <Windows.h>
 //#include <stdlib.h>
@@ -45,34 +45,34 @@
 //{
 //	SetConsoleOutputCP(1251);
 //	int n;
-//	printf("Введіть розмір масиву\n");
+//	printf("Р’РІРµРґС–С‚СЊ СЂРѕР·РјС–СЂ РјР°СЃРёРІСѓ\n");
 //	scanf_s("%d", &n);
 //	int* arr = (int*)malloc(n * sizeof(int));
 //	if (arr == NULL) {
-//		printf("Помилка виділення пам'яті\n");
+//		printf("РџРѕРјРёР»РєР° РІРёРґС–Р»РµРЅРЅСЏ РїР°Рј'СЏС‚С–\n");
 //		return 1;
 //		}
 //       srand(time(NULL));
 //	 for (int i = 0; i < n; ++i) {
 //		 arr[i] = rand() % 501;
 //	}
-//	printf("Випадкові елементи масиву\n");
+//	printf("Р’РёРїР°РґРєРѕРІС– РµР»РµРјРµРЅС‚Рё РјР°СЃРёРІСѓ\n");
 //	for (int i = 0; i < n; ++i) {
-//		printf(" %d Елемент= %d\n",i, arr[i]);
+//		printf(" %d Р•Р»РµРјРµРЅС‚= %d\n",i, arr[i]);
 //		
 //	}
 //	for (int i = 0; i < n; ++i) {
 //		if (arr[i]%2==0)
 //		arr[i] = 0;
 //	}
-//	printf("кінцевий масив\n");
+//	printf("РєС–РЅС†РµРІРёР№ РјР°СЃРёРІ\n");
 //	for (int i = 0; i < n; ++i) {
 //		printf("%d  ", arr[i]);
 //	}
 //	free(arr);
 //	return 0;
 //}
-                                                 //// Завдання 4
+                                                 //// Р—Р°РІРґР°РЅРЅСЏ 4
 //#include <stdio.h>
 //#include <Windows.h>
 //#include <stdlib.h>
@@ -82,30 +82,30 @@
 //{
 //	SetConsoleOutputCP(1251);
 //	int n;
-//	printf("Введіть розмір масиву\n");
+//	printf("Р’РІРµРґС–С‚СЊ СЂРѕР·РјС–СЂ РјР°СЃРёРІСѓ\n");
 //	scanf_s("%d", &n);
 //	int* arr = (int*)malloc(n * sizeof(int));
 //	if (arr == NULL) {
-//		printf("Помилка виділення пам'яті\n");
+//		printf("РџРѕРјРёР»РєР° РІРёРґС–Р»РµРЅРЅСЏ РїР°Рј'СЏС‚С–\n");
 //		return 1;
 //	}
 //	srand(time(NULL));
 //	for (int i = 0; i < n; ++i) {
 //		arr[i] = rand() % 501;
 //	}
-//	printf("Випадкові елементи масиву\n");
+//	printf("Р’РёРїР°РґРєРѕРІС– РµР»РµРјРµРЅС‚Рё РјР°СЃРёРІСѓ\n");
 //	for (int i = 0; i < n; ++i) {
-//		printf(" %d Елемент= %d\n", i, arr[i]);
+//		printf(" %d Р•Р»РµРјРµРЅС‚= %d\n", i, arr[i]);
 //	}
 //	int suma = 0;
 //	for (int i = 0; i < n; ++i) {
 //		suma += arr[i];
 //	}
-//	printf("Сума елементів масиву: %d\n", suma);
+//	printf("РЎСѓРјР° РµР»РµРјРµРЅС‚С–РІ РјР°СЃРёРІСѓ: %d\n", suma);
 //	free(arr);
 //	return 0;
 //}
-//                                                          //Завдання 5
+//                                                          //Р—Р°РІРґР°РЅРЅСЏ 5
 //
 //#include <stdio.h>
 //#include <Windows.h>
@@ -116,30 +116,30 @@
 //{
 //	SetConsoleOutputCP(1251);
 //	int n;
-//	printf("Введіть розмір масиву\n");
+//	printf("Р’РІРµРґС–С‚СЊ СЂРѕР·РјС–СЂ РјР°СЃРёРІСѓ\n");
 //	scanf_s("%d", &n);
 //	int* arr = (int*)malloc(n * sizeof(int));
 //	if (arr == NULL) {
-//		printf("Помилка виділення пам'яті\n");
+//		printf("РџРѕРјРёР»РєР° РІРёРґС–Р»РµРЅРЅСЏ РїР°Рј'СЏС‚С–\n");
 //		return 1;
 //	}
 //	srand(time(NULL));
 //	for (int i = 0; i < n; ++i) {
 //		arr[i] = rand() % 501;
 //	}
-//	printf("Випадкові елементи масиву\n");
+//	printf("Р’РёРїР°РґРєРѕРІС– РµР»РµРјРµРЅС‚Рё РјР°СЃРёРІСѓ\n");
 //	for (int i = 0; i < n; ++i) {
-//		printf(" %d Елемент= %d\n", i, arr[i]);
+//		printf(" %d Р•Р»РµРјРµРЅС‚= %d\n", i, arr[i]);
 //	}
-//	printf("\nЕлементи масиву в зворотньому порядку\n");
+//	printf("\nР•Р»РµРјРµРЅС‚Рё РјР°СЃРёРІСѓ РІ Р·РІРѕСЂРѕС‚РЅСЊРѕРјСѓ РїРѕСЂСЏРґРєСѓ\n");
 //	for (int i = n - 1; i >= 0; --i) {
-//		printf("%d Елемент= %d\n",n-i,  arr[i]);
+//		printf("%d Р•Р»РµРјРµРЅС‚= %d\n",n-i,  arr[i]);
 //	}
 //
 //	free(arr);
 //	return 0;
 //}
-//                                                         // Завдання 6
+//                                                         // Р—Р°РІРґР°РЅРЅСЏ 6
 //#include <stdio.h>
 //#include <Windows.h>
 //#include <stdlib.h>
@@ -149,20 +149,20 @@
 //{
 //	SetConsoleOutputCP(1251);
 //	int n;
-//	printf("Введіть розмір масиву\n");
+//	printf("Р’РІРµРґС–С‚СЊ СЂРѕР·РјС–СЂ РјР°СЃРёРІСѓ\n");
 //	scanf_s("%d", &n);
 //	int* arr = (int*)malloc(n * sizeof(int));
 //	if (arr == NULL) {
-//		printf("Помилка виділення пам'яті\n");
+//		printf("РџРѕРјРёР»РєР° РІРёРґС–Р»РµРЅРЅСЏ РїР°Рј'СЏС‚С–\n");
 //		return 0;
 //	}
 //	srand(time(NULL));
 //	for (int i = 0; i < n; ++i) {
 //		arr[i] = rand() % 501;
 //	}
-//	printf("Випадкові елементи масиву\n");
+//	printf("Р’РёРїР°РґРєРѕРІС– РµР»РµРјРµРЅС‚Рё РјР°СЃРёРІСѓ\n");
 //	for (int i = 0; i < n; ++i) {
-//		printf(" %d Елемент= %d\n", i, arr[i]);
+//		printf(" %d Р•Р»РµРјРµРЅС‚= %d\n", i, arr[i]);
 //	}
 //	int min = 0, max = 0;
 //	for (int i=1; i<n; ++i){
@@ -173,8 +173,9 @@
 //			max = i;
 //		}
 //	   }
-//	printf("Максимальне значення= %d\n", arr[max]);
-//	printf("Мінімальне значення= %d\n", arr[min]);
+//	printf("РњР°РєСЃРёРјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ= %d\n", arr[max]);
+//	printf("РњС–РЅС–РјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ= %d\n", arr[min]);
 //	free(arr);
 //	return 0;
 //	}
+
